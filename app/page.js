@@ -1,6 +1,8 @@
 import Post from "./post";
 import Client from "./sanityClient";
 
+export const revalidate = 2;
+
 const client = Client();
 
 async function getData() {
