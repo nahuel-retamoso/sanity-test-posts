@@ -33,7 +33,7 @@ export default function ({ params }) {
         <div className="w-full h-min-[80vh] flex items-center justify-center flex items-center justify-center">
             <div className="flex flex-col items-center w-2/3 bg-black/10">
                 <div className="w-full bg-white/50">
-                    <img src={image} alt="img" className="w-full" />
+                    {/* <img src={image} alt="img" className="w-full" /> */}
                 </div>
                 <p className="text-2xl font-semibold mt-20">{post[0]?.title}</p>
                 <p className="p-20">{post[0]?.content}</p>
