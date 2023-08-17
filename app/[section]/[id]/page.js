@@ -10,7 +10,7 @@ const client = Client()
 const builder = imageUrlBuilder(client)
 
 
-export default function ({ params }) {
+export default function Page({ params }) {
 
 
     const { fetchById, post } = useContext(dataContext)

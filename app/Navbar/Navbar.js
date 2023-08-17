@@ -22,8 +22,8 @@ export default  function Navbar () {
                 {sections.map((section, index) => {
 
                     return (
-                        <div style={{ backgroundColor: section.color.hex}} className={'h-full flex items-center justify-center px-5'}>
-                            <Link onClick={() => getData(section._id)} key={index} href={`/${section.slug.current}`}>{section.name}</Link>
+                        <div key={index} style={{ backgroundColor: section.color.hex}} className={'h-full flex items-center justify-center px-5'}>
+                            <Link onClick={() => getData(section._id)} href={`/${section.slug.current}`}>{section.name}</Link>
                         </div>
                     )
                 })}
